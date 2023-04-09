@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&family=Source+Sans+Pro&family=Source+Serif+4:opsz@8..60&display=swap");
+/*
+font-family: 'Schibsted Grotesk', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif 4', serif;
+*/
+
+/*universal*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  border: 2px solid transparent;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  border: 2px solid transparent;
+  font-family: "Source Sans Pro", sans-serif;
+  border: 2px solid transparent;
+}
+
+button {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.nav-links {
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(2vw);
+  border-color: black;
+}
+
+button,
+a:hover {
+  background-color: rgb(233, 229, 229);
+  padding: 0.5vw 1vw;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+
+/*Header*/
+
+#icon {
+  height: 4vw;
+}
+
+#ProjDet {
+  color: white;
+  background-color: transparent;
+  border-radius: 1vw;
+  padding: 0.5vw 1.5vw;
+  border: 2px solid transparent;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+#ProjDet:hover {
+  /* background-color: white;
+    color: black; */
+  padding: 0.7vw 2vw;
+  border-color: black;
+}
+
+#MainHeading {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+a {
+  font-size: 1.02rem;
+  font-weight: 700;
+}
+
+header {
+  width: 100%;
+  min-height: 5vw;
+  position: relative;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  display: block;
+}
+
+body {
+  background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("BackGround.jpg");
+  width: 100%;
+  height: 50%;
+}
+
+/*main*/
+
+pre {
+  width: 100%;
+}
+
+main {
+  padding: 2vw 10vw;
+}
+
+.card {
+  margin: 1vw;
+  min-width: 80vw;
+  min-height: 50vh;
+  border: 2px solid black;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  background-color: transparent;
+  backdrop-filter: blur(0.1vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vw;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.mainImg {
+  width: 20vw;
+  border-radius: 2vw;
+}
+
+.description {
+  margin: 0 3vw;
+  padding: 0.1vw 0.2vw;
+  background-color: transparent;
+  backdrop-filter: blur(2vw);
+  inline-size: 50vw;
+}
+
+.personDescription {
+    background-color: transparent;
+    z-index: 1;
+    backdrop-filter: invert(80%);
+}
+
+#myName{
+    color: white;
+}
+
+#myName:hover{
+    color: black;
+}
